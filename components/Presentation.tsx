@@ -10,22 +10,28 @@ import { Card } from '@/components/ui/card';
 
 const CancerCarePresentation: React.FC = () => {
   useEffect(() => {
-    const deck = new Reveal({
+
+      window.Reveal = Reveal;
+  const loadReveal = async () => {
+      const Reveal = (await import('reveal.js')).default;
+	      const RevealZoom = (await import('reveal.js/plugin/zoom/zoom')).default;
+
+    Reveal.initialize({
       controls: true,
       progress: true,
       center: true,
       hash: true,
       width: "100%",
       height: "100%",
-      margin: 0.04
+      margin: 0.04,
+	  plugins: [ RevealZoom ]
   
     });
-    
-    deck.initialize();
-    
-    return () => {
-      deck.destroy();
-    };
+
+   
+  }
+    loadReveal();
+
   }, []);
 
   return (
