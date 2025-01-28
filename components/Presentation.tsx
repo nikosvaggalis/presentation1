@@ -8,6 +8,7 @@ import 'reveal.js/dist/theme/white.css';
 import { Card } from '@/components/ui/card';
 
 
+
 const CancerCarePresentation: React.FC = () => {
   useEffect(() => {
 
@@ -193,8 +194,7 @@ const CancerCarePresentation: React.FC = () => {
             <Card className="p-6">
 			                <div className="bg-blue-50 p-4 rounded shadow-sm">
               <h2 className="text-2xl font-bold mb-4 text-blue-800"><span className="text-1xl text-blue-800">1γ.</span> Εμβέλεια</h2>
-			  <p>Το μητρώο θα έχει Εθνική εμβέλεια. <br /><br />Θα ενημερώνεται από όλες τις μονάδες υγείας της χώρας, 
-			 θα διασυνδέεται με τον Εθνικό Ηλεκτρονικό Φάκελο Υγείας, και θα περιλαμβάνει το σύνολο των πληροφοριών που είναι απαραίτητες για την παρακολούθηση των βασικών επιδημιολογικών δεικτών της νόσου.
+			  <p>Το μητρώο θα έχει Εθνική εμβέλεια. <br /><br />Θα ενημερώνεται από όλες τις μονάδες υγείας της χώρας, θα διασυνδέεται με τον Εθνικό Ηλεκτρονικό Φάκελο Υγείας, και θα περιλαμβάνει το σύνολο των πληροφοριών που είναι απαραίτητες για την παρακολούθηση των βασικών επιδημιολογικών δεικτών της νόσου.
 			 </p>
 				</div>
             </Card>
@@ -487,6 +487,53 @@ const CancerCarePresentation: React.FC = () => {
                     <p className="text-left p-2 bg-white/80 rounded">✓ Εναρμόνιση με Ευρωπαϊκά πρότυπα</p>
                     <p className="text-left p-2 bg-white/80 rounded">✓ Ενδυνάμωση έρευνας</p>
                 </div>
+            </Card>
+        </section>
+
+{/* Readiness */}
+      <section>
+            <Card className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-blue-800">8. Βελτίωση της Ψηφιακής Ετοιμότητας των Νοσοκομείων</h2>
+                    <div className="space-y-4">
+ <div className="grid grid-cols-2 gap-4">
+	  <div className="p-3 bg-blue-50 rounded ">Αναβάθμιση πληροφοριακών συστημάτων & υποδομών νοσοκομείων</div>
+<div className="p-3 bg-blue-50 rounded"><span className="font-bold">Παρεμβάσεις σε Λογισμικά εφαρμογών:</span>
+                      <ul className="list-disc pl-6 mt-2 space-y-4">
+                        <li>Κάλυψη εθνικού επιπέδου αναφοράς ψηφιακής ετοιμότητας (National Digital
+             Readiness Baseline)</li>
+                        <li>Υλοποίηση/προμήθεια λοιπών λογισμικών εφαρμογών για τις ανάγκες των
+             μονάδων υγείας</li>
+                      
+                      </ul>
+                    </div>
+					
+                    <div className="p-3 bg-blue-50 rounded "> 
+					<span className="font-bold">Παρεμβάσεις που αφορούν σε αναβάθμιση υλικοτεχνικών υποδομών: </span>
+					           <ul className="list-disc pl-6 mt-2 space-y-4">
+                        <li>Δικτυακές και υπολογιστικές υποδομές</li> 
+                        <li>Υποδομές ασφάλειας συστημάτων και δεδομένων</li>
+                        <li>Εκσυγχρονισμός και αναβάθμιση της αρχιτεκτονικής ενσύρματων δικτύων (LAN)</li>
+                        <li>Ασύρματα δίκτυο δεδομένων (WLAN)</li>
+                        <li>Συστήματα ενοποιημένης IP επικοινωνίας</li>
+                      </ul>
+                    </div>
+					
+              </div>
+			   </div>
+            </Card>
+        </section>
+
+		   <section>
+            <Card className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-blue-800">National Digital Readiness Baseline</h2>
+              <div className="grid grid-cols-1 ">
+                <img 
+                  src="/images/readiness.png" 
+                  alt="readiness" 
+                  className="w-full rounded shadow-lg"
+                />
+             
+              </div>
             </Card>
         </section>
 
