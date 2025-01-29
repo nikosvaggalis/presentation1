@@ -24,7 +24,7 @@ const CancerCarePresentation: React.FC = () => {
       hash: true,
       width: "100%",
       height: "100%",
-      margin: 0.04,
+      margin: 0.01,
 	  plugins: [ RevealZoom ]
   
     });
@@ -74,19 +74,19 @@ const CancerCarePresentation: React.FC = () => {
                 <svg className="w-5 h-5 text-blue-600 mt-0.5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Η βελτίωση της ποιότητας των παρεχόμενων υπηρεσιών υγείας μέσω της χρήσης νέων τεχνολογιών</span>
+                <span>Στην βελτίωση της ποιότητας των παρεχόμενων υπηρεσιών υγείας μέσω της χρήσης νέων τεχνολογιών</span>
               </div>
               <div className="flex items-start p-3 bg-blue-50 rounded-lg">
                 <svg className="w-5 h-5 text-blue-600 mt-0.5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Η προστασία και η βελτίωση της υγείας του πληθυσμού και ιδιαίτερα των ευπαθών ομάδων</span>
+                <span>Στην προστασία και βελτίωση της υγείας του και ιδιαίτερα των ευπαθών ομάδων</span>
               </div>
               <div className="flex items-start p-3 bg-blue-50 rounded-lg">
                 <svg className="w-5 h-5 text-blue-600 mt-0.5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Ο έλεγχος, η πρόληψη και η διαχείριση των υψηλού φορτίου νοσημάτων</span>
+                <span>Στον έλεγχο, την πρόληψη και την διαχείριση των νοσημάτων υψηλού φορτίου </span>
               </div>
             </div>
           </div>
@@ -104,19 +104,19 @@ const CancerCarePresentation: React.FC = () => {
                 <svg className="w-5 h-5 text-green-600 mt-0.5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Την χρήση νέων καινοτόμων τεχνολογιών που θα διευκολύνουν το έργο τους</span>
+                <span>Στην χρήση νέων καινοτόμων τεχνολογιών που θα διευκολύνουν το έργο τους</span>
               </div>
               <div className="flex items-start p-3 bg-green-50 rounded-lg">
                 <svg className="w-5 h-5 text-green-600 mt-0.5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Ψηφιακή ετοιμότητα και αποδέσμευση από την γραφειοκρατία ώστε να μπορούν να διαθέτουν τον πολύτιμο χρόνο τους στην περίθαλψη των ασθενών τους</span>
+                <span>Στην ψηφιακή ετοιμότητα και αποδέσμευση από την γραφειοκρατία ώστε να μπορούν να διαθέτουν τον πολύτιμο χρόνο τους στην φροντίδα των ασθενών τους</span>
               </div>
               <div className="flex items-start p-3 bg-green-50 rounded-lg">
                 <svg className="w-5 h-5 text-green-600 mt-0.5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>Εναρμόνιση πρακτικών με τις διεθνείς και ευρωπαϊκές οδηγίες</span>
+                <span>Στην εναρμόνιση των ιατρικών πρακτικών με διεθνείς και ευρωπαϊκές οδηγίες</span>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ const CancerCarePresentation: React.FC = () => {
         {/* Basic Systems */}
         <section>
            <Card className="p-6">
-        <h2 className="text-2xl font-bold mb-4 text-blue-800">Εφαρμογές</h2>
+        <h2 className="text-2xl font-bold mb-4 text-blue-800">Επι μέρους εφαρμογές</h2>
         <div className="grid gap-4 text-left">
           <div className="p-3 bg-blue-50 rounded">1. Εθνικό Μητρώο Νεοπλασματικών Νοσημάτων (ΕΜΝΝ)</div>
           <div className="p-3 bg-blue-50 rounded">2. Ογκολογικό - Αιματολογικό Πληροφοριακό Σύστημα</div>
@@ -148,13 +148,13 @@ const CancerCarePresentation: React.FC = () => {
               <div className="space-y-4">
                 <div className="bg-blue-50 p-4 rounded">
                   <h3 className="font-semibold mb-2">Η κατάσταση τώρα:</h3>
-                  <p>Δεν υπάρχει επίσημη συστηματική καταγραφή νεοπλασιών σε εθνικό ή τοπικό.</p>
+                  <p>Δεν υπάρχει επίσημη συστηματική καταγραφή νεοπλασιών σε εθνικό ή τοπικό επίπεδο</p>
                 </div>
                 <div className="bg-red-50 p-4 rounded">
-                  <h3 className="font-semibold mb-2">Τι προβλήματα δημιουργεί αυτό;</h3>
+                  <h3 className="font-semibold mb-2">Τι προβλήματα συνεπάγεται αυτό;</h3>
                   <ul className="list-disc pl-6 space-y-2">
                     <li>Αδύνατη η στοιχειώδης παρακολούθηση των βασικών επιδημιολογικών δεικτών της νόσου</li>
-                    <li>Η χώρα να μην εκπροσωπείται, όπως οφείλει,  στους διεθνείς οργανισμούς, όπως στο Ευρωπαϊκό Δίκτυο Μητρώων Καρκίνου </li>
+                    <li>Η χώρα να μην εκπροσωπείται όπως οφείλει,  στους διεθνείς οργανισμούς όπως στο Ευρωπαϊκό Δίκτυο Μητρώων Καρκίνου </li>
                   </ul>
                 </div></div>
             </Card>
@@ -163,7 +163,7 @@ const CancerCarePresentation: React.FC = () => {
 		  <section>
             <Card className="p-6">
               <h2 className="text-2xl font-bold mb-4 text-blue-800"><span className="text-1xl text-blue-800">1α.</span> Τι θα αλλάξει;</h2>
-                   <h3 className="font-semibold mb-2">Δημιουργία Μητρώου το οποίο θα ενημερώνεται από όλες τις μονάδες υγείας της χώρας, θα διασυνδέεται με:</h3>
+                   <h3 className="font-semibold mb-2">Δημιουργία Μητρώου το οποίο θα ενημερώνεται από όλες τις μονάδες υγείας της χώρας που θα διασυνδέεται με:</h3>
 				  <div className="grid grid-cols-2 gap-4">
                       <div className="p-3 bg-blue-50 rounded">Εθνικό Ηλεκτρονικό Φάκελο Υγείας </div>
                     <div className="p-3 bg-blue-50 rounded">Ογκολογικό-Αιματολογικό Πληροφοριακό Σύστημα</div>
@@ -171,7 +171,7 @@ const CancerCarePresentation: React.FC = () => {
               			  </div> 
 				<div className="space-y-4 font-semibold mb-2"> 
 				<br />
-				και θα περιλαμβάνει το σύνολο των πληροφοριών που είναι απαραίτητες <br /> για την παρακολούθηση των βασικών επιδημιολογικών δεικτών της νόσου  
+				και θα περιλαμβάνει το σύνολο των πληροφοριών που είναι απαραίτητες <br /> για την παρακολούθηση των επιδημιολογικών δεικτών της νόσου  
                 </div>				
             </Card>
         </section>
@@ -193,11 +193,9 @@ const CancerCarePresentation: React.FC = () => {
 			                <div className="bg-blue-50 p-4 rounded shadow-sm">
               <h2 className="text-2xl font-bold mb-4 text-blue-800"><span className="text-1xl text-blue-800">1β.</span> Σκοπός</h2>
                  	<ul className="list-disc pl-6 space-y-8">
-                      <li>Θα καταγράφονται τα άτομα με νεοπλασίες με στόχο τον αποδοτικότερο σχεδιασμό παρεμβάσεων αντιμετώπισης και πρόληψης και την καλύτερη επιτήρηση της νόσου</li>
-					<li>Θα ενημερώνεται από όλες τις μονάδες υγείας της χώραςΤον αποδοτικότερο σχεδιασμό των παρεμβάσεων αντιμετώπισης και πρόληψης</li>
-                    <li>Συμμόρφωση με τις κατευθυντήριες οδηγίες του Ευρωπαϊκού Δικτύου Μητρώων Καρκίνου (European Network of Cancer Registries) που προτείνει την  : 
-					<p style={{marginLeft: 15+'px'}}>
-					εναρμόνιση των κρατών-μελών με ένα κοινό σύνολο   δεδομένων, κωδικοποιήσεων και ελέγχων ποιότητας, προκειμένου να διασφαλιστεί ένα ελάχιστο επίπεδο ομοιογένειας που θα επιτρέψει την αξιοποίηση των δεδομένων σε ευρωπαϊκό επίπεδο</p>
+                      <li>Θα καταγράφονται τα άτομα με νεοπλασίες με στόχο την καλύτερη επιτήρηση της νόσου και τον αποδοτικότερο σχεδιασμό παρεμβάσεων </li>
+                    <li>Συμμόρφωση με τις κατευθυντήριες οδηγίες του Ευρωπαϊκού Δικτύου Μητρώων Καρκίνου (European Network of Cancer Registries) που προτείνει την   
+					εναρμόνιση των κρατών-μελών με ένα κοινό σύνολο κωδικοποιήσεων που θα επιτρέψει την αξιοποίηση των δεδομένων σε Ευρωπαϊκό επίπεδο
 					</li>
 				</ul>					
 				</div>
@@ -208,7 +206,7 @@ const CancerCarePresentation: React.FC = () => {
             <Card className="p-6">
 			                <div className="bg-blue-50 p-4 rounded shadow-sm">
               <h2 className="text-2xl font-bold mb-4 text-blue-800"><span className="text-1xl text-blue-800">1γ.</span> Εμβέλεια</h2>
-			  <p>Το μητρώο θα έχει Εθνική εμβέλεια και θα ενημερώνεται από όλες τις μονάδες υγείας της χώρας, θα διασυνδέεται με τον Εθνικό Ηλεκτρονικό Φάκελο Υγείας, και θα περιλαμβάνει το σύνολο των πληροφοριών που είναι απαραίτητες για την παρακολούθηση των βασικών επιδημιολογικών δεικτών της νόσου.
+			  <p>Το μητρώο θα έχει Εθνική εμβέλεια, θα ενημερώνεται από όλες τις μονάδες υγείας της χώρας και θα διασυνδέεται με τον Εθνικό Ηλεκτρονικό Φάκελο Υγείας
 			 </p>
 				</div>
             </Card>
@@ -238,10 +236,10 @@ const CancerCarePresentation: React.FC = () => {
               <h2 className="text-2xl font-bold mb-4 text-blue-800 "><span className="text-1xl text-blue-800">2α.</span> Πως;</h2>
               <div className="space-y-4 ">
                    <div className="grid grid-cols-2 gap-4 ">
-                    <div className="p-3 rounded bg-green-50">Με την ενιαία <strong>πρόσβαση στις κλινικές πληροφορίες</strong> και τα δεδομένα θεραπείας των ασθενών μεταξύ των Νοσοκομείων του Έργου καθώς και της διαλειτουργικότητας με τις βασικές εθνικές ψηφιακές υποδομές</div>
-                   <div className="p-3 rounded bg-green-50">Με την υποστήριξη των <strong>Διεπιστημονικών Ομάδων/Ογκολογικών Συμβουλίων</strong> (MDT) και τελικά των θεραπόντων ιατρών, στη λήψη θεραπευτικών αποφάσεων</div>
-                    <div className="p-3 rounded bg-green-50">Με την υποστήριξη της <strong>αντινεοπλασματικής θεραπείας</strong> σε όλα τα στάδια, από τον σχεδιασμό σύμφωνα με τα <strong>Θεραπευτικά Πρωτόκολλα</strong></div>
-                    <div className="p-3 rounded bg-green-50">Με την <strong>συλλογή υψηλής ποιότητας δεδομένων</strong> που μπορούν να αξιοποιηθούν τόσο για χάραξη πολιτικής όσο και για επιστημονική έρευνα</div>
+                    <div className="p-3 rounded bg-green-50">Με την ενιαία <strong>πρόσβαση στις κλινικές πληροφορίες</strong> και τα δεδομένα θεραπείας των ασθενών μεταξύ των Νοσοκομείων και των υπόλοιπων ψηφιακών υποδομών</div>
+                   <div className="p-3 rounded bg-green-50">Με την υποστήριξη των <strong>Διεπιστημονικών Ομάδων/Ογκολογικών Συμβουλίων</strong> (MDT) στη λήψη θεραπευτικών αποφάσεων</div>
+                    <div className="p-3 rounded bg-green-50">Με την υποστήριξη της <strong>αντινεοπλασματικής θεραπείας</strong> σε όλα τα στάδια, μέσω των <strong>Θεραπευτικών Πρωτοκόλλων</strong></div>
+                    <div className="p-3 rounded bg-green-50">Με την <strong>συλλογή υψηλής ποιότητας δεδομένων</strong> που μπορούν να αξιοποιηθούν τόσο για χάραξη πολιτικής όσο και για έρευνα</div>
                   </div>
 				</div>
             </Card>
@@ -266,7 +264,7 @@ const CancerCarePresentation: React.FC = () => {
               <h2 className="text-2xl font-bold mb-4 text-blue-800"><span className="text-1xl text-blue-800">2β.</span> Βασικά Χαρακτηριστικά</h2>
 				 <div className="grid grid-cols-2 gap-4">
                       <div className="p-3 bg-blue-50 rounded">Ταυτοποίηση ασθενών με ΑΜΚΑ</div>
-                    <div className="p-3 bg-blue-50 rounded">Παρακολούθηση ασθενών σε όλες τις επαφές τους με το Νοσοκομείο (επισκέψεις σε Εξωτερικά Ιατρεία, Επείγοντα, Ημερήσιες Νοσηλείες, Εισαγωγές)</div>
+                    <div className="p-3 bg-blue-50 rounded">Παρακολούθηση ασθενών σε όλες τις επαφές τους με το Νοσοκομείο <br /> (Εξωτερικά Ιατρεία, Επείγοντα, Ημερήσιες Νοσηλείες, Εισαγωγές)</div>
                     <div className="p-3 bg-blue-50 rounded">Κεντρική διαχείριση του Μητρώου Φαρμάκων και των Θεραπευτικών Πρωτοκόλλων</div>
                   </div>
             </Card>
@@ -290,8 +288,7 @@ const CancerCarePresentation: React.FC = () => {
 <li>Γενικό Ογκολογικό Νοσοκομείο Κηφισιάς, «ΟΙ ΑΓΙΟΙ ΑΝΑΡΓΥΡΟΙ»</li>
 <li>Γ.Ν.Θ. «Γ. ΠΑΠΑΝΙΚΟΛΑΟΥ»</li>
 <li>Νοσοκομείο «ΠΑΠΑΓΕΩΡΓΙΟΥ»</li>
-<li>Γενικό Νοσοκομείο Αθηνών «Ο ΕΥΑΓΓΕΛΙΣΜΟΣ»    </li>                
-					
+<li>Γενικό Νοσοκομείο Αθηνών «Ο ΕΥΑΓΓΕΛΙΣΜΟΣ»    </li>               
 				</ul>					
 				</div>
             </Card>
@@ -304,7 +301,7 @@ const CancerCarePresentation: React.FC = () => {
               <div className="space-y-4">
                 <div className="bg-blue-50 p-4 rounded shadow-sm">
                   <h3 className="font-semibold mb-2">Σκοπός:</h3>
-                  <p>Ανάλυση μεγάλου όγκου δεδομένων με σκοπό την αξιολόγηση και προσαρμογή των πρακτικών ογκολογικής θεραπείας και τη χάραξη πολιτικών και την εξοικονόμηση κόστους για το σύστημα υγείας</p>
+                  <p>Ανάλυση μεγάλου όγκου δεδομένων με σκοπό την αναπροσαρμογή των πρακτικών ογκολογικής θεραπείας καθώς και την εξοικονόμηση κόστους για το σύστημα υγείας</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded shadow-sm">
                   <h3 className="font-semibold mb-2">Πως;</h3>
@@ -312,7 +309,7 @@ const CancerCarePresentation: React.FC = () => {
                   <ul className="list-disc pl-6 space-y-2">
                     <li>Dashboards</li>
                     <li>Reports</li>
-                    <li>AI Watson.x</li>
+                    <li>AI</li>
                   </ul>
                 </div></div>
             </Card>
@@ -325,9 +322,9 @@ const CancerCarePresentation: React.FC = () => {
               <div className="space-y-4">
                 <div className="bg-white/80 p-4 rounded shadow-sm">
                   <ul className="list-disc pl-6 space-y-8">
-                    <li>Eπιτρέπει στους χρήστες να μειώσουν ή να εξαλείψουν την εξάρτηση τους από τα IT τμήματα για BI εργασίες που θέλουν να πραγματοποιήσουν, παρέχοντας περισσότερες επιλογές αυτοεξυπηρέτησης.</li>
-                    <li>Εντοπίζει φαινόμενα και συσχετίσεις μεταξύ δεδομένων που ισχύουν σε ευρεία κλίμακα, ώστε να μετατραπούν σε βάση για λήψη κλινικών αποφάσεων για τη θεραπεία του καρκίνου</li>
-                    <li>Δυνατότητα δημιουργίας υποθετικών σεναρία εναλλακτικών προβλέψεων που αντικατοπτρίζονται άμεσα σε διαγράμματα, αναφορές και dashboards</li>
+                    <li>Eπιτρέπει στους χρήστες να μειώσουν ή να εξαλείψουν την εξάρτηση τους από τα IT τμήματα για BI εργασίες που θέλουν να πραγματοποιήσουν, παρέχοντας περισσότερες επιλογές αυτοεξυπηρέτησης - Self service reporting</li>
+                    <li>Εντοπίζει φαινόμενα και συσχετίσεις μεταξύ δεδομένων σε ευρεία κλίμακα, ώστε να μετατραπούν σε βάση λήψης κλινικών αποφάσεων</li>
+                    <li>Δυνατότητα δημιουργίας υποθετικών σεναρίων και εναλλακτικών προβλέψεων</li>
                   </ul>
                 </div></div>
             </Card>
@@ -357,8 +354,8 @@ const CancerCarePresentation: React.FC = () => {
                 <div className="bg-blue-50 p-4 rounded shadow-sm">
                   <h3 className="font-semibold mb-2">Σκοπός:</h3>
                   <ul className="list-disc pl-6 space-y-8">
-                    <li>Η συνεχής υποστήριξη των ασθενών, η αναβάθμιση της παρεχόμενης φροντίδας και τελικά η βελτίωση της ποιότητας ζωής τους</li>
-                    <li>Η καθημερινή διαχείριση της νόσου του ασθενή, η μείωση του άγχους του και η ενίσχυση του αισθήματος ασφάλειας</li>
+                    <li>Την συνεχή υποστήριξη των ασθενών, την αναβάθμιση της παρεχόμενης φροντίδας και τελικά την βελτίωση της ποιότητας ζωής τους</li>
+                    <li>Την καθημερινή διαχείριση της νόσου του ασθενή, την μείωση του άγχους και την ενίσχυση του αισθήματος ασφάλειας</li>
                   </ul>
                 </div></div>
             </Card>
@@ -392,8 +389,8 @@ const CancerCarePresentation: React.FC = () => {
                     <div className="p-3 bg-blue-50 rounded">Διαβαθμισμένη πρόσβαση του ασθενούς στα δεδομένα του (εργαστηριακά αποτελέσματα, στοιχεία φακέλου κ.λ.π.)</div>
                     <div className="p-3 bg-blue-50 rounded">Δυνατότητα επικοινωνίας με το θεράποντα ιατρό/ομάδα υποστήριξης για ερωτήσεις/συμβουλές. Η επικοινωνία γίνεται μέσω τηλε-συνεδρίας ή γραπτών κειμένων (chat)</div>
                     <div className="p-3 bg-blue-50 rounded">Δυνατότητα καταχώρησης παρενεργειών φαρμάκων και χημειοθεραπείων προς την θεραπευτική ομάδα του ασθενή</div>
-                   <div className="p-3 bg-blue-50 rounded">Πρόγραμμα θεραπείας με δυνατότητα υπενθύμισης για τα επερχόμενα θεραπευτικά συμβάντα</div>
-                    <div className="p-3 bg-blue-50 rounded">Δυνατότητα αυτοαναφοράς κατάστασης/συμπτωμάτων μέσω ερωτηματολογίων</div>
+                   <div className="p-3 bg-blue-50 rounded">Πρόγραμμα θεραπείας με δυνατότητα υπενθύμισης </div>
+                    <div className="p-3 bg-blue-50 rounded">Δυνατότητα αυτοαναφοράς κατάστασης/συμπτωμάτων μέσω ερωτηματολογίων προς την θεραπευτική ομάδα του ασθενή</div>
                   
                 </div>
               </div>
@@ -406,12 +403,12 @@ const CancerCarePresentation: React.FC = () => {
               <h2 className="text-2xl font-bold mb-4 text-blue-800">5. Εργαλείο πολυεπιστημονικού συμβουλίου όγκων (MDT)</h2>
               <div className="space-y-4">
                 <div className="bg-blue-50 p-4 rounded shadow-sm">
-                  <p className="mb-4">Η ολοκληρωμένη θεραπεία ογκολογικών ασθενών απαιτεί τη συνεργασία μεταξύ πολλαπλών ιατρικών ειδικοτήτων και τη λήψη αποφάσεων, με συνδυασμό της εμπειρίας και των γνώσεων ιατρών με διαφορετική ειδίκευση.</p>
+                  <p className="mb-4">Η ολοκληρωμένη θεραπεία ογκολογικών ασθενών απαιτεί τη συνεργασία μεταξύ πολλαπλών ιατρικών ειδικοτήτων</p>
                   <div className="bg-green-50 p-4 rounded shadow-sm">
 				  <h3 className="font-semibold mb-2">Σκοπός:</h3>
                   <ul className="list-disc pl-6 space-y-6">
                     <li>Iατροί διαφορετικών ειδικοτήτων να αποκτούν πρόσβαση στα δεδομένα του ασθενούς</li>
-                    <li>Eπιλογή της πιο κατάλληλης και αποτελεσματικής θεραπείας για καρκινοπαθείς, λαμβάνοντας υπόψη τη σταδιοποίηση του όγκου και την ταξινόμησή του μαζί με τα συνολικά κλινικά χαρακτηριστικά.</li>
+                    <li>Συμβούλια μεταξύ αυτών προς επιλογή της πιο κατάλληλης και αποτελεσματικής θεραπείας</li>
                   </ul>
                 </div>
 				</div>
@@ -424,17 +421,17 @@ const CancerCarePresentation: React.FC = () => {
             <Card className="p-6">
               <h2 className="text-xl font-bold mb-4 text-blue-800"><span className="text-1xl text-blue-800">5α.</span> Με το υποσύστημα θα γίνεται:</h2>
                 <div className="p-4 rounded shadow-sm grid grid-cols-2 gap-4">
-                    <div className="p-3 bg-blue-50 rounded font-bold">Δημιουργία Συνεδρίασης Του Ογκολογικού Συμβουλίου</div>
-                    <div className="p-3 bg-blue-50 rounded"><span className="font-bold">Διαχείριση Των Συνέδριων Του Ογκολογικού Συμβουλίου</span>
+                    <div className="p-3 bg-blue-50 rounded font-bold">Δημιουργία συνεδρίασης του Ογκολογικού Συμβουλίου</div>
+                    <div className="p-3 bg-blue-50 rounded"><span className="font-bold">Διαχείριση των συνεδριών</span>
                       <ul className="list-disc pl-6 mt-2 space-y-4" style={{marginTop: 15+'px'}}>
                         <li>Προετοιμασία των περιστατικών προς συζήτηση</li>
-                        <li>Γραμματειακή υποστήριξη: προετοιμασία ατζέντας, πρακτικά</li>
+                        <li>Γραμματειακή υποστήριξη, όπως προετοιμασία ατζέντας, πρακτικά συνεδρίασης, κλπ</li>
                       </ul>
                     </div>
-                    <div className="p-3 bg-blue-50 rounded "><span className="font-bold">Λήψη Αποφάσεων μέσω εξειδικευμένου εργαλείου</span>
+                    <div className="p-3 bg-blue-50 rounded "><span className="font-bold">Λήψη αποφάσεων συνυπολογίζοντας προτάσεις απο εξειδικευμένο software</span>
 					<ul className="list-disc pl-6 mt-2 space-y-4" style={{marginTop: 15+ 'px'}}>
                         <li>Βασισμένο σε διεθνή πρωτόκολλα</li>
-                        <li>Διασύνδεση με το υποσύστημα της Τεχνητής Νοημοσύνης (ΑΙ)</li>
+                        <li>Διασύνδεδεμένο με το υποσύστημα Τεχνητής Νοημοσύνης (ΑΙ)</li>
 						</ul>
                   </div>
                 </div>
@@ -449,19 +446,18 @@ const CancerCarePresentation: React.FC = () => {
  <div className="grid grid-cols-2 gap-4">
  
      <div className="p-3 bg-blue-50 rounded "> 
-					<span className="font-bold">Συλλογή δεδομένων από τα τοπικά συστήματα του Νοσοκομείου μέσω διαλειτουργικότητας : </span>
-					           <ul className="list-disc pl-6 mt-2">
+					<span className="font-bold">Συλλογή δεδομένων από τα τοπικά συστήματα του Νοσοκομείου: </span>
+					   <ul className="list-disc pl-6 mt-2">
                         <li>Μητρώο Ασθενών Νοσοκομείου</li>
                         <li>Ιατρικός Φάκελος</li>
                         <li>Εργαστηριακά Υποσυστήματα</li>
-                        <li>PACS</li>
-                        <li>Διαχείριση Ακτινοθεραπειών</li>
-                        <li>Ογκολογικό Σύστημα  Διαχείρισης Aντινεοπλασματικών θεραπειών </li>
+                        <li>RIS/PACS</li>
+                        <li>Ακτινοθεραπείες</li>
+                        <li>Aντινεοπλασματικές θεραπείες</li>
                       </ul>
                     </div>
 					
-	  <div className="p-3 bg-blue-50 rounded ">Ανοιχτά, διεθνή και αναγνωρισμένα πρότυπα για την ανταλλαγή δεδομένων</div>
-<div className="p-3 bg-blue-50 rounded"><span className="font-bold">Διαθεσιμότητα του συνόλου δεδομένων:</span>
+<div className="p-3 bg-blue-50 rounded"><span className="font-bold">Σύνολο των κλινικών δεδομένων του ασθενή:</span>
                       <ul className="list-disc pl-6 mt-2">
                         <li>στοιχεία διάγνωσης</li>
                         <li>στάδιο νόσου</li>
@@ -472,9 +468,9 @@ const CancerCarePresentation: React.FC = () => {
                       </ul>
                     </div>
 					
-                
-					
-						  <div className="p-3 bg-blue-50 rounded ">Ηλεκτρονική ανταλλαγή των δεδομένων με τρίτα συστήματα</div>
+	  <div className="p-3 bg-blue-50 rounded ">Ανοιχτά, και αναγνωρισμένα πρότυπα ανταλλαγής δεδομένων</div>
+               				
+	  <div className="p-3 bg-blue-50 rounded ">Ηλεκτρονική ανταλλαγή των δεδομένων με τρίτα συστήματα</div>
 
               </div>
 			   </div>
@@ -500,29 +496,28 @@ const CancerCarePresentation: React.FC = () => {
 {/* Readiness */}
       <section>
             <Card className="p-6">
-              <h2 className="text-2xl font-bold mb-4 text-blue-800">8. Βελτίωση της Ψηφιακής Ετοιμότητας των Νοσοκομείων</h2>
+              <h2 className="text-2xl font-bold mb-4 text-blue-800">8. Βελτίωση Ψηφιακής Ετοιμότητας Νοσοκομείων</h2>
                     <div className="space-y-4">
  <div className="grid grid-cols-2 gap-4">
-	  <div className="p-3 bg-blue-50 rounded ">Αναβάθμιση πληροφοριακών συστημάτων & υποδομών νοσοκομείων
-	  Σε φάση αξιολόγησης 128 Νοσοκομείων για να κριθεί τι είδους παρεμβάσεις θα γίνουν σε κάθε Νοσοκομείο΄
+	  <div className="p-3 bg-blue-50 rounded ">Αναβάθμιση πληροφοριακών συστημάτων & υποδομών νοσοκομείων.<br />
+	  128 Νοσοκομεία σε φάση αξιολόγησης για να κριθεί τι είδους <b>παρεμβάσεις</b> θα γίνουν σε κάθε Νοσοκομείο΄
 	  </div>
 <div className="p-3 bg-blue-50 rounded"><span className="font-bold">Παρεμβάσεις σε Λογισμικά εφαρμογών:</span>
                       <ul className="list-disc pl-6 mt-2 space-y-4">
-                        <li>Κάλυψη εθνικού επιπέδου αναφοράς ψηφιακής ετοιμότητας (National Digital
-             Readiness Baseline)</li>
-                        <li>Υλοποίηση/προμήθεια λοιπών λογισμικών εφαρμογών για τις ανάγκες των
-             μονάδων υγείας</li>
-                      
+                        <li>Κάλυψη του εθνικού επιπέδου αναφοράς ψηφιακής ετοιμότητας (National Digital Readiness Baseline)</li>
+                        <li>Υλοποίηση/προμήθεια λοιπών λογισμικών εφαρμογών για τις ανάγκες των μονάδων υγείας, με σκοπό 
+						των εκσυγχρονισμό τους (HIS, LIS, EHR, κλπ)
+							</li>
                       </ul>
                     </div>
 					
                     <div className="p-3 bg-blue-50 rounded "> 
-					<span className="font-bold">Παρεμβάσεις που αφορούν σε αναβάθμιση υλικοτεχνικών υποδομών: </span>
-					           <ul className="list-disc pl-6 mt-2 space-y-4">
-                        <li>Δικτυακές και υπολογιστικές υποδομές</li> 
-                        <li>Υποδομές ασφάλειας συστημάτων και δεδομένων</li>
-                        <li>Εκσυγχρονισμός και αναβάθμιση της αρχιτεκτονικής ενσύρματων δικτύων (LAN)</li>
-                        <li>Ασύρματα δίκτυο δεδομένων (WLAN)</li>
+					<span className="font-bold">Παρεμβάσεις στην αναβάθμιση υλικοτεχνικών υποδομών: </span>
+					  <ul className="list-disc pl-6 mt-2 space-y-4">
+                        <li>Δίκτυο και υπολογιστές</li> 
+                        <li>Ασφάλεια συστημάτων</li>
+                        <li>Εκσυγχρονισμός ενσύρματων δικτύων (LAN)</li>
+                        <li>Ασύρματα δίκτυα δεδομένων (WLAN)</li>
                         <li>Συστήματα ενοποιημένης IP επικοινωνίας</li>
                       </ul>
                     </div>
